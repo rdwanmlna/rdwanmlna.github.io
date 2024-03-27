@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black;  */
+}
+
+body {
+    background-image: linear-gradient(to bottom, #4643E8, #0F0D53);
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-top: 20px;
+
+}
+
+header .logo{
+    color: white;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+.Hero {
+    display: flex;
+    /* justify-content: space-evenly;  */
+    margin-top: 80px;
+}
+
+.Hero-sosmed {
+    color: white;
+    margin-left: 200px;
+}
+
+.Hero .Hero-sosmed .Hero-nama {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.Hero .Hero-sosmed .Hero-text {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid white;
+    padding-bottom: 10px;
+    
+}
+
+.Hero-foto {
+    background-color: black;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 490px;
+}
+
+.Hero .Hero-foto .kotak-1{
+    border: 5px solid #D8F71B;
+    width: 200px;
+    height: 210px;
+    background-color: #D8F71B;
+    position: absolute;
+    z-index: 1;
+    margin-top: -100px;
+    margin-left: 140px;
+    border-radius: 12px;
+}
+
+.Hero .Hero-foto .kotak-2{
+    border: 5px solid #74F2FA;
+    width: 200px;
+    height: 210px;
+    background-color: #74F2FA;
+    position: absolute;
+    z-index: 2;
+    margin-top: -50px;
+    margin-left: 70px;
+    border-radius: 12px;
+}
+
+.Hero .Hero-foto img {
+    position: absolute;
+    width: 200px;
+    height: 210px;
+    z-index: 3;
+    border-radius: 12px;
+}
+
+.about {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about .about-kanan {
+    width: 50%;
+    margin-top: 50px;
+    color: white;
+}
+
+.about .about-kiri img {
+    width: 350px;
+}
+
+.about .about-kanan button {
+    background-color: #59ACE8;
+    padding: 5px;
+    width: 100px;
+    color: white;
+}
+
+.about-kanan h1 {
+    border-bottom: 3px solid white;
+    border-right-width: 3px;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.about .about-kanan p {
+    margin-top: 10px;
+}
+
+.Skill {
+    width: 100%;
+}
+
+.Skill .garis {
+    height: 3px;
+    width: 100px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.Skill h1 {
+    text-align: center;
+    color: white;
+}
+
+.Skill .text-skill {
+    margin: auto;
+    width: 20%;
+    padding: 20px;
+    background-color: #0B1099;
+    list-style: none;
+    color: white;
+}
+
+.Skill .text-skill ul {
+    list-style: none;
+}
+
+.reason {
+    margin-top: 100px;
+    color: white;
+}
+
+.reason h1 {
+    text-align: center;
+    color: white;
+}
+
+.reason .garis {
+    height: 3px;
+    width: 150px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.reason .box {
+    width: 500px;
+    background-color: #0B1099;
+    margin: auto;
+    padding: 20px;
+}
+
+.Testimonials {
+    margin-top: 100px;
+
+}
+
+.Testimonials h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.Testimonials .clients .client {
+    background-color: #0B1099;
+    display: flex;
+    width: 400px;
+    align-items: center;
+    color: white;
+}
+
+.Testimonials .clients .client img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.Testimonials .clients {
+    background-color: #0B1099;
+    width: 400px;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.Testimonials .box-testimonials {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.Testimonials .garis {
+    height: 2px;
+    width: 250px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.Testimonials .ulasan {
+    color: white;
+}
+
+.Portfolio {
+    margin-top: 100px;
+}
+
+.Portfolio h2 {
+    text-align: center;
+    color: white;
+}
+
+.Portfolio .garis {
+    height: 2px;
+    width: 100px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 5px
+}
+
+.Portfolio .box {
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.Portfolio .box .items {
+    background-color: #0B1099;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    border-radius: 15px;
+    /* width: 400px; */
+    padding: 30px;
+    height: 350px;
+}
+
+.Portfolio .box .items img {
+    width: 300px;
+    height: 300px;
+}
+
+.Portfolio .box .items h4 {
+    color: white;
+    margin-top: 10px;
+}
+
+.Portfolio .box .items p {
+    color: #0AF058;
+    margin-top: 10px;
+}
+
+.contacts {
+    margin-top: 100px;
+}
+
+.contacts h2 {
+    color: white;
+    text-align: center; 
+}
+
+.contacts .garis {
+    height: 2px;
+    width: 100px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.contacts .contacts-box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.contacts .contacts-box .contacts-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+.contacts .contacts-box .contacts-item .item-email, 
+.contacts .contacts-box .contacts-item .item-phone, 
+.contacts .contacts-box .contacts-item .item-ig {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.contacts .contacts-box .contacts-item .item-email img, 
+.contacts .contacts-box .contacts-item .item-phone img, 
+.contacts .contacts-box .contacts-item .item-ig img {
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    background-color: #235B8E;
+    margin-top: 300px;
+    /* height: 500px; */
+    display: flex;
+    align-items: center;    
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    gap: 20px;
+    color: white;
+
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-sosmed {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-contact i {
+    margin-right: 20px;
+    color: black;
+}
+
+
+
+
