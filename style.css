@@ -387,5 +387,14 @@ footer a {
 }
 
 
+@media (max-width: 768px) {
+    html {
+        font-size: 65%;
+    }
+}
 
-
+@media (max-width: 450px) {
+    html {
+        font-size: 55%;
+    }
+}
