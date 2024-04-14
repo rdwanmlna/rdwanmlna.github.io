@@ -398,3 +398,70 @@ footer a {
         font-size: 55%;
     }
 }
+
+/* Styling for contact section */
+.contact-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-content h1 {
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-content h1 span {
+    color: #FFA500;
+}
+
+.contact-content p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.isiconta {
+    display: flex;
+    justify-content: center;
+}
+
+.kiri-conta {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.input-field input[type="text"],
+.textarea-field textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+
+.input-field input[type="text"]:focus,
+.textarea-field textarea:focus {
+    outline: none;
+    border-color: #FFA500;
+}
+
+.submit-btn .btn {
+    background-color: #FFA500;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn .btn:hover {
+    background-color: #FF6347;
+}
